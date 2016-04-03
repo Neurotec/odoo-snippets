@@ -1,0 +1,14 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: odoo-view-model-window
+# key: model-window
+# binding: direct-keybinding
+# group: odoo-view
+# --
+<record model="ir.actions.act_window" id="$1_list_actions">
+	<field name="name">$1</field>
+	<field name="res_model">$2.$1</field>
+	<filed name="view_mode">tree,form</field>
+	<field name="help" type="html">
+	       <p class="oe_view_nocontent_create">Create the first item</p>
+	</field>
+</record>

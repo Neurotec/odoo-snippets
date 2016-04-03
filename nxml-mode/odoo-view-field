@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: odoo-view-field
+# key: field
+# binding: direct-keybinding
+# group: odoo-view
+# --
+<field name="$1"/>

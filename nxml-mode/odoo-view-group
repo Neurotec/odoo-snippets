@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: odoo-view-group
+# key: group
+# binding: direct-keybinding
+# group: odoo-view
+# --
+<group>
+	$0
+</group>

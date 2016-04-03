@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: odoo-view-sheet
+# key: sheet
+# binding: direct-keybinding
+# group: odoo-view
+# --
+<sheet>
+	$0
+</sheet>

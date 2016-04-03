@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: odoo-view-notebook
+# key: notebook
+# binding: direct-keybinding
+# group: odoo-view
+# --
+<notebook>
+	$0
+</notebook>

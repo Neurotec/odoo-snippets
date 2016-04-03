@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: odoo-view-page
+# key: page
+# binding: direct-keybinding
+# group: odoo-view
+# --
+<page string="$1">
+      $0
+</page>

@@ -1,0 +1,34 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: odoo-view-model
+# key: model
+# binding: direct-keybinding
+# group: odoo-view
+# --
+<record model="ir.ui.view" id="${1:id_record_form_view}_form_view">
+	<field name="name">$1.form</field>
+	<field name="model">$2.$1</field>
+	<field name="arch" type="xml">
+	       <form string="$1 form">
+	       	     <sheet>
+		     </sheet>
+		</form>
+	</field>
+</record>
+
+<record model="ir.ui.view" id="$1.tree_view">
+	<field name="name">$1.tree</field>
+	<field name="model">$2.$1</field>
+	<field name="arch" type="xml">
+	       <tree string="$1 list">
+	       </tree>
+	</field>
+</record>
+
+<record model="ir.actions.act_window" id="$1_list_actions">
+	<field name="name">$1</field>
+	<field name="res_model">$2.$1</field>
+	<field name="view_type">form</field>
+	<field name="view_mode">tree,form</field>
+</record>
+
+<menuitem id="$1_menu" name="$1" action="$1_list_actions"/>

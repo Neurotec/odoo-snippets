@@ -1,0 +1,15 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: odoo-view-model-form
+# key: model-form
+# binding: direct-keybinding
+# group: odoo-view
+# --
+<record model="ir.ui.view" id="$1_form_view">
+	<field name="name">$1</field>
+	<field name="model">$2.$1</field>
+	<field name="arch" type="xml">
+	       <form string="$3">
+	       $0
+	       </form>
+	</field>
+</record>

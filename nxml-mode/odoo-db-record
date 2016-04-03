@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: odoo-db-record
+# key: record-db
+# binding: direct-keybinding
+# group: odoo-view
+# --
+<record model="$2" id="$1">
+	<field name="$3">$4</field>
+</record>

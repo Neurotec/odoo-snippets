@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: odoo-view-label
+# key: label
+# binding: direct-keybinding
+# group: odoo-view
+# --
+<label for="$1"/>

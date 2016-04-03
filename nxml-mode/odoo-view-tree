@@ -1,0 +1,15 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: odoo-view-tree
+# key: tree
+# binding: direct-keybinding
+# group: odoo-view
+# --
+<record model="ir.ui.view" id="$1">
+	<field name="name">$2</field>
+	<field name="model">$3</field>
+	<field name="arch" type="xml">
+	       <tree string="$4">
+		$0
+		</tree>
+	</field>
+</record>
